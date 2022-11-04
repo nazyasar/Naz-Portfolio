@@ -18,7 +18,7 @@ In this Portfolio project I created my website from the scratch, it includes:
 
 ## My Website on Github Pages
 
-https://nazyasar.github.io/Naz-Portfolio/Develop
+https://nazyasar.github.io/Naz-Portfolio/
 
 ## My Github Repo
 
@@ -26,5 +26,4 @@ https://github.com/nazyasar/Naz-Portfolio
 
 ## Picture of the Website
 
-![Getting Started][def]
-[def]: ./assets/images/portfolio.png
+<img width="1128" alt="portfolio" src="https://user-images.githubusercontent.com/55256787/199868810-f65ce356-1a19-4a59-bb13-38187b54017c.png">
