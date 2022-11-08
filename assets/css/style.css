@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0;  
 }
 
 body {
@@ -62,7 +62,7 @@ p {
 
 .hero {
   height: 550px;
-  width: 50%;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -99,7 +99,7 @@ p {
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
+  background-color: #756464;
 }
 
 .benefit-lan {
@@ -131,13 +131,13 @@ p {
 .benefit-lan img {
   display: block;
   margin: 20px auto;
-  max-width: 250px;
+  max-width: 100%;
 }
 
 .benefit-topics img {
   display: block;
   margin: 20px auto;
-  max-width: 250px;
+  max-width: 100%;
 }
 
 /* right side of the page's content design */
@@ -147,7 +147,7 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+  background-color: #298004;
   color: #ffffff;
 }
 
@@ -156,7 +156,7 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+  background-color: #cf9b0a;
   color: #ffffff;
 }
 
@@ -165,20 +165,24 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+  background-color: #bb003b;
   color: #ffffff;
 }
 
 .about-me img {
-  max-height: 200px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .project img {
-  max-height: 200px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .contact-me img {
-  max-height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+
 }
 
 .contact-me p {
@@ -216,33 +220,23 @@ p {
   color: #ffffff;
 }
 
-/* responsive pages for any screen */
+/* responsive pages for large screens */
 
-@media only screen and (max-width:700px) {
-
-  .header {
-    width: 100%;
+@media screen and (max-width: 992px) {
+  .header
+  {
+    background-color: #bb003b;
     position: absolute;
   }
-  .hero {
-    width: 100%;
+}
+
+/* responsive pages for small screens */
+
+@media screen and (max-width: 768px) {
+  .header
+  {
+    background-color: #238721;
+    position: absolute;
   }
-  .about-me {
-    width: 100%;
-  }
-  .project {
-    width: 100%;
-  }
-  .contact-me {
-    width: 100%;
-  }
-  .benefit-lan {
-    width: 100%;
-  }
-  .benefit-topics {
-    width: 100%;
-  }
-  .footer {
-    width: 100%;
-  }
-  }
+}
+
