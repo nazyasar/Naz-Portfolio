@@ -26,4 +26,4 @@ https://github.com/nazyasar/Naz-Portfolio
 
 ## Picture of the Website
 
-<img width="1128" alt="portfolio" src="https://user-images.githubusercontent.com/55256787/199868810-f65ce356-1a19-4a59-bb13-38187b54017c.png">
+<img width="961" alt="Screenshot_20221108_075358" src="https://user-images.githubusercontent.com/55256787/200709576-42f48784-8dbb-45ef-b9a2-ce168a9bb271.png">
